@@ -1,0 +1,143 @@
+aside {
+  padding: 3.5rem;
+}
+
+.aside-content{
+  position: relative;
+}
+.postion {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    align-items: center;
+  }
+
+.search-container {
+  position: relative; 
+}
+
+.loader-wrapper{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+  top: 0;
+    left: 0;
+}
+
+.search-input {
+  width: 100%;
+  padding: 10px 40px 10px 40px; /* Add space for the icon */
+  font-size: .9rem;
+  border: none;
+outline: none;
+}
+
+.search-input::placeholder{
+    color: rgb(27, 27, 27);
+}
+.search-icon {
+  position: absolute;
+  left: 10px;
+  top:30% ;
+  pointer-events: none; /* Make the icon unclickable */
+}
+
+.gps{
+    background-color: #F6F6F8;
+    color: #7e7e7e;
+    font-weight: 500;
+    border: none;
+    padding: .45rem;
+    border-radius: 7px;
+    flex-basis: 11%;
+    font-size: .8rem;
+    cursor: pointer;
+    transition: all .2s ease;
+}
+.gps:hover{
+  color: black;
+  background-color: #e7e7e7;
+
+}
+.gps button{
+  border: none;
+  background-color:inherit;
+  cursor: pointer;
+}
+
+
+
+
+.weather-image{
+    margin-block: 3rem;
+    display: block;
+}
+
+
+.degree {
+    font-weight: 300;
+    display: flex;
+    align-items: flex-start;
+  }
+  
+  .number {
+    font-size: 7rem; /* Adjust as needed */
+    line-height: 1; /* Ensure there's no extra white space */
+    
+  }
+  
+  .unit {
+    font-size: 2rem;
+    font-weight: 400;
+    line-height: 1; /* Matches the number's line-height */
+    margin-top: 10px; /* Fine-tune to align at the top */
+  }
+
+  .time-info{
+    font-size: 1.3rem;
+    margin-block: 1rem;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 2rem;
+    display: inline-flex;
+    width: 100%;
+  }
+
+  .time{
+    color: #acaaaa;
+  }
+
+  .cloud-rain-container {
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+  }
+  .cloud,.rain{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+    justify-content: space-between;
+  }
+  .rain img{
+    padding: 1%;
+  }
+  
+
+  .condition-icon {
+    flex-basis: 85%;
+  }
+
+
+  .cityImage {
+    position: relative;
+  }
+  .cityImage img{
+    width: 100%;
+    display: block;
+    aspect-ratio: 2/1;
+    filter:grayscale(20%) ;
+    text-transform: capitalize;
+  }

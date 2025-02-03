@@ -1,0 +1,156 @@
+.day-container h2 {
+  margin-bottom: 2rem;
+}
+.day-container .day {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Three equal columns */
+  grid-template-rows: repeat(2, 1fr); /* Two equal rows */
+  gap: 1.2rem; /* Adjust the gap as needed */
+}
+
+.day-container .day section {
+  border-radius: 2rem;
+  padding-inline: 1.5rem;
+  padding-block: 1.3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  max-height: 212px;
+}
+
+.day-container h3 {
+  color: rgb(168, 168, 168);
+  font-weight: 400;
+}
+
+/* UV Index */
+
+#apexchartscbwtbnku {
+  margin-inline: auto;
+}
+.uv-container {
+  position: relative;
+}
+.uv-number {
+  text-align: center;
+  display: block;
+  margin-top: -2rem;
+  font-size: 2rem;
+}
+
+/* Wind Status */
+
+.speed-value{
+  font-size: 3rem;
+}
+.speed-unit{
+  font-size: 1.3rem;
+}
+.direction{
+  display: flex;
+  align-items: center;
+  gap: .5rem;
+}
+.direction-icon{
+  border-radius: 2rem;
+  border: 1px rgb(212, 212, 212) solid;
+  padding: .4rem;
+}
+.direction-value{
+  font-size: 1.2rem;
+}
+
+
+/* Sunrise & Sunset */
+.sun-rise, .sun-set{
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+}
+
+.sun-status p{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.sun-status img{
+  width: 17%;
+}
+
+.sun-status p span:first-child{
+  font-size: 1.2rem;
+}
+.sun-status p span:nth-child(2){
+  font-size: .8rem;
+  color: rgb(172, 172, 172);
+}
+
+/*Humidity */
+.range-container {
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin-block: .5rem;
+}
+
+
+.slider{
+  height: 100px;
+  width: 1.9rem;
+  border: 1px solid rgb(218, 218, 218);
+  border-radius:100px ;
+  position: relative;
+  padding-inline: .2rem;
+  padding-block: .2rem;
+  display: flex;
+  justify-content: center;
+}
+
+.thumb{
+  position: absolute;
+  background-color: #4050D2; 
+  width: 1.2rem; /* Set explicit width */
+  height: 1.2rem; /* Set explicit height */
+  border-radius: 50%;
+  margin-block: .2rem;
+  display: block;
+}
+
+.range-container p{
+  font-size: 3rem;
+}
+
+.humidity-status{
+  display: flex;
+  align-items: center;
+  gap: .2rem;
+}
+
+/* VISIBILITY */
+.visibility-value{
+  font-size: 3rem;
+}
+.visibility-unit{
+  font-size: 1.3rem;
+}
+.visibility-status{
+  display: flex;
+  align-items: center;
+  gap: .3rem;
+}
+
+.visibility-status img{
+  width: 10%;
+}
+/* AIR QUALITY*/
+
+.air-quality-status{
+  display: flex;
+  align-items: center;
+  gap: .3rem;
+}
+
+.air-status img{
+  width: 10%;
+}

@@ -1,0 +1,64 @@
+.week {
+  display: flex;
+  justify-content: space-between;
+  margin-block: 2rem;
+}
+
+/* Header */
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.celsus,
+.fahrenheit {
+  font-size: 1rem;
+  font-weight: 600;
+  background-color: white;
+  border-radius: 100px;
+  padding-block: 7px;
+  text-align: center;
+  display: block;
+  width: 40px;
+  cursor: pointer;
+}
+
+.celsus.active {
+  background-color: #1a1a1a;
+  color: white;
+}
+.fahrenheit.active {
+  background-color: #1a1a1a;
+  color: white;
+}
+.degree-scales {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+/* One day */
+.week article{
+  
+  background-color: white;
+  border-radius: 10px;
+}
+.oneDay {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.7rem;
+  min-width: 122px;
+  padding-block: 1rem;
+  padding-inline: 1.5rem;
+}
+
+.oneDay img {
+  min-width: 64px;
+}
+
+.negative {
+  color: rgb(198, 196, 196);
+}
