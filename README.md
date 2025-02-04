@@ -1,4 +1,8 @@
-<h1 align="center" id="title">Weather App</h1> <p align="center"> <img src="https://socialify.git.ci/your-username/weatherApp/image?font=Inter&language=1&name=1&owner=1&pattern=Signal&stargazers=1&theme=Dark" alt="Weather App" width="1024" height="720" /> </p> <h2>🚀 Demo</h2>
+<h1 align="center" id="title">Weather App</h1> 
+<p align="center"> 
+  <img src="https://socialify.git.ci/slim2me/weatherApp/image?font=Inter&language=1&name=1&owner=1&pattern=Signal&stargazers=1&theme=Dark" alt="weatherApp" width="640" height="320" />
+</p> 
+  <h2>🚀 Demo</h2>
 https://weatherapp-demo.vercel.app/
 
 <h2>🧐 Features</h2>
