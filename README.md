@@ -1,8 +1,19 @@
-# React + Vite
+<h1 align="center" id="title">Weather App</h1> <p align="center"> <img src="https://socialify.git.ci/your-username/weatherApp/image?font=Inter&language=1&name=1&owner=1&pattern=Signal&stargazers=1&theme=Dark" alt="Weather App" width="1024" height="720" /> </p> <h2>🚀 Demo</h2>
+https://weatherapp-demo.vercel.app/
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<h2>🧐 Features</h2>
+• Real-Time Weather Updates – Get current weather conditions based on your location or by searching for a city.
+• City Search – Look up detailed weather information for any city.
+• Forecast Information – Access extended weather forecasts.
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<h2>🛠️ Installation Steps:</h2>
+Clone the repository from GitHub using your preferred Git client.
+Navigate to the project directory.
+Install the dependencies using npm.
+Start the development server with Vite using the command "npm run dev".
+<h2>💻 Built with</h2>
+Technologies used in this project include:
+• Vite
+• ReactJS
+• HTML5 & CSS3
+• Weather data provided by https://www.weatherapi.com/
