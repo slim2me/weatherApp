@@ -2,7 +2,7 @@ import axios from "axios";
 
 export const fetchWeather= async (props) => {
     
-  const url = 'http://api.weatherapi.com/v1/forecast.json';
+  const url = 'https://api.weatherapi.com/v1/forecast.json';
   const apiKey = '6b3e9f00a344407ba07122530252101';
   const location = props;
   const days = 7;
